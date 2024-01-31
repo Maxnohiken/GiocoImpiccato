@@ -4,14 +4,16 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
+  }
   
-#container {
+  #container {
     text-align: center;
-    border: 2px solid #000; 
-    padding: 20px;
-}
-
-#bar{
-    margin-top: 10px;
-}
+    border: 2px solid #000; /* Add a border for visualization */
+    padding: 40px; /* Il doppio del valore originale */
+  }
+  
+  #inputLettere, #btn, #word, #tentativi, #numeri {
+    font-size: 2em; /* Imposta la dimensione del testo al doppio */
+    margin: 10px; /* Imposta il margine al doppio */
+  }
+  
